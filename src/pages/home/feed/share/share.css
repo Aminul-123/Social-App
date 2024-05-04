@@ -1,0 +1,62 @@
+.shareContainer {
+    width: 95%;
+    margin-bottom: 1.5px;
+    box-shadow: 0 0 5px #afabab;
+    border-radius: 8px;
+}
+.shareContainer .myprofile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.shareContainer hr {
+    color: rgb(218, 209, 209);
+    width: 90%;
+    margin-left: 20px;
+}
+.shareContainer > div {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 15px;
+}
+.shareContainer input {
+    border: none;
+    outline: none;
+    width: 80%;
+    font-size: 19px;
+}
+.upload {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+   }
+.upload-all {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+ }
+.upload-all > * {
+    padding-left: 20px;
+    display: flex;
+}
+.upload-all > * h5 {
+    padding-left: 8px;
+}
+.share-btn {
+    margin-bottom: 20px;
+    width: 5rem;
+    padding: 7px;
+    background-color: rgb(115, 79, 148);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 1rem;
+    cursor: pointer;
+}

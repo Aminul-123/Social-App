@@ -1,0 +1,29 @@
+.containerRight {
+    width: 27.5%;
+    background-color: #fff;
+    height: fit-content;
+    overflow-x: hidden;
+    position: sticky;
+}
+.containerRight .events {
+    display: flex;
+    margin: 15px;
+}
+.events .emoji {
+    padding-right: 15px;
+}
+.ads {
+    width: 100%;
+    object-fit: cover;
+    padding-right: 4px;
+    border-radius: 5px;
+    margin-bottom: 13px;
+}
+.online-friends {
+    display: flex;
+    flex-direction: column;
+    padding-left: 13px;
+    gap: 7px;
+    margin-top: 13px;
+    
+}

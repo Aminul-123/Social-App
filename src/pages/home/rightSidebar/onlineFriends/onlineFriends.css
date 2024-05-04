@@ -1,0 +1,26 @@
+.allOnlineFriends {
+    display: flex;
+}
+
+.online-friends .onlineFriendsImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(56, 253, 56);
+}
+.online-friends h5 {
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+.online-friends .online {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: relative;
+    top: -1px;
+    left: -10px;
+   
+}
+

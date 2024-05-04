@@ -1,0 +1,45 @@
+.containerLeft {
+    width: 28%;
+    overflow-y: scroll;
+    background-color: #fff;
+    position:-webkit-sticky;
+    overflow-x: hidden;
+   
+
+}
+.containerLeft .cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    font-size: 22px;
+}
+.containerLeft .cont > * {
+    display: flex;
+    margin-top: 1.3rem;
+    cursor: pointer;
+
+}
+.containerLeft .cont > *  h4 {
+    padding-left: 30px;
+}
+.cont .show-more-btn {
+    width: 7rem;
+    background-color: #dedada;
+    padding: 8px;
+    font-size: 19px;
+    border: none;
+}
+.connected-people {
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #e2dddd;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 134, 134);
+}

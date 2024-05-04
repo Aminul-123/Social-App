@@ -1,0 +1,12 @@
+.connected-people .connected-people-image {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.connected-people .connected-people-name {
+    position: relative;
+    left: 48px;
+    top: -37px;
+}
