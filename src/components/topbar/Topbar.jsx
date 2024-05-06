@@ -4,6 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { FaUser } from "react-icons/fa";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { IoIosNotifications } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Topbar() {
   return (
@@ -18,7 +19,7 @@ function Topbar() {
           <input type="text" placeholder="Search for friend, post or video" />
         </div>
         <div className="button-homepage">
-          <div>Homepage</div>
+          <Link to="/" color="#fff">Homepage</Link>
           <div>Timeline</div>
         </div>
         <div className="three-icon">
@@ -36,9 +37,9 @@ function Topbar() {
           </div>
         </div>
 
-        <div className="profile-pic">
+        <Link to="/profile-page" className="profile-pic">
           <img src="./assets/images-2.jpg" alt="profile" className="profile" />
-        </div>
+        </Link>
       </div>
     </>
   );
