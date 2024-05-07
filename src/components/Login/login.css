@@ -1,0 +1,25 @@
+.login-container {
+    height: auto;
+    width: 300px;
+    background-color: rgb(230, 220, 209);
+    border: none;
+    padding: 15px;
+    margin: 3rem 3rem;
+
+
+}
+.login-container div {
+    display: flex;
+    gap: 13px;
+}
+.login-btn button {
+    cursor: pointer;
+    padding: 7px;
+    border: none;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.login-container span {
+    cursor: pointer;
+    color: lightblue ;
+}

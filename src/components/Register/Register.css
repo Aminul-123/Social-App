@@ -1,0 +1,19 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 13px;
+    margin: 19px;
+    gap: 1rem;
+}
+.register-container div {
+    display: flex;
+    gap: 13px;
+}
+.Register-btn button {
+    padding: 7px;
+    background-color: rgb(93, 207, 207);
+    border: none;
+    cursor: pointer;
+}

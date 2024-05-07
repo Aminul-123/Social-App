@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./topbar.css";
 import { CiSearch } from "react-icons/ci";
 import { FaUser } from "react-icons/fa";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { IoIosNotifications } from "react-icons/io";
 import { Link } from "react-router-dom";
+import LoginModal from "../LoginModal/LoginModal";
+
+
 
 function Topbar() {
+  const [showModal , setShowModal] = useState(false);
+  function showHandle () {
+    if (showModal === true) {
+      setShowModal(false);
+    } else {
+      setShowModal(true);
+    }
+  }
   return (
     <>
       <div className="topbarContainer">
@@ -37,10 +48,20 @@ function Topbar() {
           </div>
         </div>
 
-        <Link to="/profile-page" className="profile-pic">
-          <img src="./assets/images-2.jpg" alt="profile" className="profile" />
-        </Link>
+        <div  className="profile-pic">
+          <img src="./assets/images-2.jpg" alt="profile" className="profile" 
+          onClick={showHandle}
+        
+         />
+    
+
+        </div>
+        {/* Link to="/profile-page" */}
       </div>
+      {
+      showModal && ( <LoginModal/> )
+      }
+
     </>
   );
 }

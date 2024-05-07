@@ -1,8 +1,10 @@
 
 import './App.css';
+import Login from './components/Login/Login.jsx';
+import Register from './components/Register/Register.jsx';
 import Topbar from './components/topbar/Topbar';
 import Home from './pages/home/home.js';
-import LeftSidebar from './pages/home/leftSidebar/LeftSidebar.jsx';
+//import LeftSidebar from './pages/home/leftSidebar/LeftSidebar.jsx';
 import Profile from './pages/profile/Profile.jsx';
 //import NotFound from './NotFound/NotFound.jsx';
 
@@ -24,6 +26,16 @@ function App() {
      <Profile/>
     </>
   } />
+  <Route path='/login-page' element={<>
+  
+  <Login/>
+  </>}
+   />
+   <Route path='/register-page' element={
+    <>
+    <Register/>
+    </>
+   } />
   <Route path='*' element={ <>
     <div>
     <h2> 😐😐😑</h2>

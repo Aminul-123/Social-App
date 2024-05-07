@@ -1,0 +1,43 @@
+
+.loginModalContainer {
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    top: 3.5rem;
+    height: auto;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(61, 81, 92);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding: 13px;
+
+}
+.thisProfile {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+.thisProfile h5 {
+    color: #fff;
+}
+.logout-btn {
+    padding: 6px;
+    background-color: rgb(114, 235, 195);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.profile-this {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+    
+
+}
