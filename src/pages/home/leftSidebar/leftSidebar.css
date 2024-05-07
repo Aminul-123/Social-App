@@ -2,8 +2,9 @@
     width: 28%;
     overflow-y: scroll;
     background-color: #fff;
-    position:-webkit-sticky;
+    position:sticky;
     overflow-x: hidden;
+    top: 3.5rem;
    
 
 }

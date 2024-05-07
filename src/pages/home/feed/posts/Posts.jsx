@@ -10,7 +10,7 @@ function Posts({post}) {
     const [isLiked, setIsLiked] = useState(false)
 
     const likeHandler = () => {
-        setLike(isLiked ? like -1 : like+1)
+        setLike(like + (isLiked ?  -1 : 1))
         setIsLiked(!isLiked);
     }
    // console.log(post.date)
@@ -34,7 +34,7 @@ function Posts({post}) {
             <div>
                 <div>
                 <AiFillLike color='blue' onClick = {likeHandler} />
-                <p>{post.like}</p>
+                <p>{like}</p>
                 </div>
                 <div>
                 <IoIosHeart color='red'   />

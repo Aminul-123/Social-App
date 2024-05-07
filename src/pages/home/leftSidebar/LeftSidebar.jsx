@@ -11,6 +11,7 @@ import { MdEmojiEvents } from "react-icons/md";
 import { FaDiscourse } from "react-icons/fa6";
 import { Users } from "../../../dummyData";
 import CloseFriend from "./closeFriend/CloseFriend";
+import {Link} from "react-router-dom";
 
 function LeftSidebar() {
   return (
@@ -30,7 +31,9 @@ function LeftSidebar() {
         </div>
         <div>
           <MdGroups color="blue" />
-          <h4>Groups</h4>
+         <Link to= '/groups'>
+         <h4>Groups</h4>
+         </Link>
         </div>
         <div>
           <FaBookmark color="rgb(244, 8, 0)" />
